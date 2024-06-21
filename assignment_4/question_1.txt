@@ -1,0 +1,9 @@
+ int arr[5]={2,8,18,34,5}; 
+for (int i=0;i<5;i++){ 
+ cout<<i[arr]<<” ”; 
+} 
+
+
+No the code will not give error . This is because the expression i[arr] is equivalent to arr[i] in C++
+In c++ a[i] is defined as *(a+i) so i[a] will be *(i+a) . Hence both are same.
+

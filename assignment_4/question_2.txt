@@ -1,0 +1,8 @@
+int arr[5]={2,8,18,34,5}; 
+char ch[6]=”abcde”; 
+cout<<arr<<endl; 
+cout<<ch; 
+What output will you get in each line(address is printed or something else)? Why so?
+
+Both the statements will print the memory address of the first element stored in the respective arrays.
+its because the name of the array is a pointer pointing to the first element of the array.
